@@ -1,0 +1,38 @@
+name: textile_time_study
+description: "Analyse du travail sur vidéo (chronométrage) pour la confection."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  video_player: ^2.14.1
+  video_player_win: ^3.3.1
+  image_picker: ^1.2.4
+  flutter_secure_storage: ^11.2.0
+  http: ^1.6.0
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  uuid: ^4.6.0
+  fl_chart: ^1.3.1
+  pdf: ^3.13.1
+  printing: ^5.15.1
+  share_plus: ^13.3.1
+  material_ui: ^1.11.0
+  cupertino_ui: ^1.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/DejaVuSans.ttf
+    - assets/fonts/DejaVuSans-Bold.ttf
