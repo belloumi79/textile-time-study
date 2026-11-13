@@ -5,6 +5,10 @@ plugins {
 }
 
 android {
+    // Le lint « vital » de release plante avec certains plugins (API Java 21) : désactivé pour la CI.
+    lint {
+        checkReleaseBuilds = false
+    }
     namespace = "tn.belloumi.textile_time_study"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
